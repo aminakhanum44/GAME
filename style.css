@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    text-align: center;
+    color: #eb9696;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f97878;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    border: 2px solid #f97878;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#eb9696;;
+    color: #464545;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
